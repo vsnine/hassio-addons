@@ -1,0 +1,27 @@
+{
+  "name": "Let's Encrypt Cloudflare",
+  "version": "1",
+  "slug": "letsencrypt-cf",
+  "description": "Manage certificate from Let's Encrypt using Cloudflare DNS",
+  "url": "https://github.com/vsnine/hassio-addons/",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "once",
+  "boot": "manual",
+  "map": ["ssl:rw"],
+  "options": {
+    "email": null,
+    "domains": [null],
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem",
+    "cfemail": null,
+    "cfapikey": null
+  },
+  "schema": {
+    "email": "email",
+    "domains": ["str"],
+    "certfile": "str",
+    "keyfile": "str",
+    "cfemail": "email",
+    "cfapikey": "str"
+  }
+}
