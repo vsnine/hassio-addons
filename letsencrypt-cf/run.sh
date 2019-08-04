@@ -21,7 +21,6 @@ chmod 640 $CERT_DIR/cf.ini
 
 # Generate new certs
 if [ ! -d "$CERT_DIR/live" ]; then
-    >&2 echo "Creating new certs"
     DOMAIN_ARR=()
     for line in $DOMAINS; do
         DOMAIN_ARR+=(-d "$line")
