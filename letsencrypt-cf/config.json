@@ -1,6 +1,6 @@
 {
   "name": "Let's Encrypt Cloudflare",
-  "version": "1",
+  "version": "1.0",
   "slug": "letsencrypt-cf",
   "description": "Manage certificate from Let's Encrypt using Cloudflare DNS",
   "url": "https://github.com/vsnine/hassio-addons/",
